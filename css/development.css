@@ -1,0 +1,242 @@
+body {
+  font-size: 2vw;
+  margin: 0;
+}
+
+p{
+  text-align: justify;
+}
+
+.my_name{
+    font-size: 2.5em;
+    padding-bottom: .3em;
+    padding-top: .3em;
+    margin: 0;
+}
+/*  Navigation Bar */
+nav {
+  margin: 1em;
+  text-align: center;
+}
+
+nav div.back-to-portoflio{
+  text-decoration: none;
+  margin: 1em;
+  padding: .2em;
+
+}
+
+nav div.back-to-portoflio:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav div a{
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4em;
+}
+
+nav div a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-in-page {
+  margin: 5px;
+  text-align: center;
+}
+
+
+.site-description{
+    background-color: #cacaca;
+    padding: 1em;
+    font-size: .8em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+
+/* Section */
+section header h2{
+  color: blue;
+}
+section {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-bottom: 1em;
+}
+
+
+section h2{
+    padding: 0;
+    margin: 0em 0em .3em 0em;
+}
+
+.image-description-block {
+  padding: 1.2em;
+  border: 3px solid rgba(218, 223, 225, 1);;
+  box-shadow: rgba(218, 223, 225, 1) 0px 0.3em 0.5em 0px inset;
+  background-color: 1em;
+  display: block;
+  overflow: hidden;
+  margin: .2em 1em .2em 1em;
+  border-radius: .6em;
+}
+
+.image-description-block figure {
+  padding: 0;
+  margin: 0;
+  float:left;
+  padding-right: 1.3em;
+}
+
+.image-description-block figcaption {
+  text-align: center;
+  padding-top: .2em;
+  font-size: .6em;
+}
+
+.section-content {
+    margin: 1em .5em 1em .5em;
+    display: block;
+    overflow: hidden;
+}
+
+.section-content p{
+    margin: 0;
+    padding: 0;
+}
+
+.image-description-block figure img{
+  height: 8em;
+  width: 12em;
+  padding: .28em 0 0 0;
+}
+
+.image-description-block .description{
+  text-align: justify;
+  display: block;
+}
+
+.description .title{
+  margin: 0;
+  padding: 0;
+}
+
+.description-text{
+  padding: .1em 0 0 0 ;
+  margin: 0;
+  font-size: .8em;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.back-to-top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 .3em 1em 0;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.back-to-top:hover{
+  cursor: pointer;
+  padding-bottom: .5em;
+}
+
+.title{
+  display: inline;
+}
+
+.link-icon{
+  width: .7em;
+  height: .7em;
+}
+
+.link-icon:hover{
+    cursor: pointer;
+}
+
+
+#overview{
+  padding: 2em 0 0 0;
+
+}
+
+#overview h1{
+    text-align: center;
+}
+
+
+#overview header h1{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+
+#overview .image{
+    height: 15em;
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#overview .description{
+    text-align: justify;
+    display: block;
+
+}
+
+.user-test{
+    margin: 0;
+    padding: 0;
+}
+
+.user-test h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.user-test-summary{
+    margin: 1em 2em 0em 2em;
+    background-color: #cacaca;
+    padding: 1em;
+}
+
+.user-test .image-description-block{
+    margin: .2em 1.5em .2em 1.5em;
+}
+
+footer{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 1em;
+  display:block;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: white;
+}
+
+.text-indent{
+    text-indent: 3em;
+}
